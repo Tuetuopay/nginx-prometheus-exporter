@@ -1,6 +1,6 @@
 NAME = nginx-prometheus-exporter
 
-VERSION = 0.2.0
+VERSION = 0.2.1
 PREFIX = nginx/$(NAME)
 TAG = $(VERSION)
 GIT_COMMIT = $(shell git rev-parse --short HEAD)
